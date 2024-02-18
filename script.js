@@ -21,6 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 top: offsetTop,
                 behavior: 'smooth'
             });
-        }, { passive: true }); // Ajoutez l'option passive: true pour améliorer les performances de défilement
+        });
     });
 });
